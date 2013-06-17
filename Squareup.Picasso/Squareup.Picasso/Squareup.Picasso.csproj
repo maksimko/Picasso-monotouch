@@ -46,6 +46,7 @@
     <None Include="Additions\AboutAdditions.txt" />
     <None Include="Jars\AboutJars.txt" />
     <None Include="Libs\Squareup.Picasso.dll" />
+    <None Include="Libs\sourceJars.archive" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\EnumFields.xml" />
