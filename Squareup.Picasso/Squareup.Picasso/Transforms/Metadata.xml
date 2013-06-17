@@ -1,0 +1,43 @@
+<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.squareup.picasso']" name = "managedName">Squareup</attr>
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='Picasso']/method[@name='with']/parameter[@name='p0']" name = "name">context</attr>
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='Picasso']/method[@name='load' and count(parameter)=1 and parameter[1][@type='android.net.Uri']]/parameter[@name='p0']" name = "name">uri</attr>
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='Picasso']/method[@name='load' and count(parameter)=1 and parameter[1][@type='int']]/parameter[@name='p0']" name = "name">resourceId</attr>
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='Picasso']/method[@name='load' and count(parameter)=1 and parameter[1][@type='java.io.File']]/parameter[@name='p0']" name = "name">file</attr>
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='Picasso']/method[@name='load' and count(parameter)=1 and parameter[1][@type='java.lang.String']]/parameter[@name='p0']" name = "name">url</attr>
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='Picasso']/method[@name='cancelRequest' and count(parameter)=1 and parameter[1][@type='android.widget.ImageView']]/parameter[@name='p0']" name = "name">imageView</attr>
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='Picasso']/method[@name='cancelRequest' and count(parameter)=1 and parameter[1][@type='com.squareup.picasso.Target']]/parameter[@name='p0']" name = "name">target</attr>
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='RequestBuilder']/method[@name='error' and count(parameter)=1 and parameter[1][@type='android.graphics.drawable.Drawable']]/parameter[@name='p0']" name = "name">drawable</attr>
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='RequestBuilder']/method[@name='error' and count(parameter)=1 and parameter[1][@type='int']]/parameter[@name='p0']" name = "name">resoureId</attr>
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='RequestBuilder']/method[@name='fetch' and count(parameter)=1 and parameter[1][@type='com.squareup.picasso.Target']]/parameter[@name='p0']" name = "name">target</attr>
+  
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='RequestBuilder']/method[@name='transform' and count(parameter)=1 and parameter[1][@type='com.squareup.picasso.Transformation']]/parameter[@name='p0']" name = "name">transformation</attr>
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='RequestBuilder']/method[@name='scale' and count(parameter)=1 and parameter[1][@type='float']]/parameter[@name='p0']" name = "name">factor</attr>
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='RequestBuilder']/method[@name='scale' and count(parameter)=2 and parameter[1][@type='float'] and parameter[2][@type='float']]/parameter[@name='p0']" name = "name">factorX</attr>
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='RequestBuilder']/method[@name='scale' and count(parameter)=2 and parameter[1][@type='float'] and parameter[2][@type='float']]/parameter[@name='p1']" name = "name">factorY</attr>
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='RequestBuilder']/method[@name='rotate' and count(parameter)=1 and parameter[1][@type='float']]/parameter[@name='p0']" name = "name">degress</attr>
+  
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='RequestBuilder']/method[@name='rotate' and count(parameter)=3 and parameter[1][@type='float'] and parameter[2][@type='float'] and parameter[3][@type='float']]/parameter[@name='p0']" name = "name">degress</attr>
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='RequestBuilder']/method[@name='rotate' and count(parameter)=3 and parameter[1][@type='float'] and parameter[2][@type='float'] and parameter[3][@type='float']]/parameter[@name='p1']" name = "name">pivotX</attr>
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='RequestBuilder']/method[@name='rotate' and count(parameter)=3 and parameter[1][@type='float'] and parameter[2][@type='float'] and parameter[3][@type='float']]/parameter[@name='p2']" name = "name">pivotY</attr>
+  
+  
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='RequestBuilder']/method[@name='resizeDimen' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]/parameter[@name='p0']" name = "name">targetWidthResId</attr>
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='RequestBuilder']/method[@name='resizeDimen' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]/parameter[@name='p1']" name = "name">targetHeightResId</attr>
+  
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='RequestBuilder']/method[@name='resize' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]/parameter[@name='p0']" name = "name">width</attr>
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='RequestBuilder']/method[@name='resize' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]/parameter[@name='p1']" name = "name">height</attr>
+  
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='RequestBuilder']/method[@name='placeholder' and count(parameter)=1 and parameter[1][@type='android.graphics.drawable.Drawable']]/parameter[@name='p0']" name = "name">drawable</attr>
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='RequestBuilder']/method[@name='placeholder' and count(parameter)=1 and parameter[1][@type='int']]/parameter[@name='p0']" name = "name">resourceId</attr>
+  
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='RequestBuilder']/method[@name='into' and count(parameter)=1 and parameter[1][@type='android.widget.ImageView']]/parameter[@name='p0']" name = "name">imageView</attr>
+  <attr path="/api/package[@name='com.squareup.picasso']/class[@name='RequestBuilder']/method[@name='into' and count(parameter)=1 and parameter[1][@type='com.squareup.picasso.Target']]/parameter[@name='p0']" name = "name">target</attr>
+</metadata>
